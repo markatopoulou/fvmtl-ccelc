@@ -1,0 +1,5 @@
+# Guidelines
+
+To train a caffe model using the proposed *FV_MTL with CCE_LC* architecture you need to prepare some input files, and also set the paths in lines 13, 16, 31 and 44 of the *ResNet-50-fvmtl_ccelc_ext1_2048.prototxt* that refer to the input files. In order to prepare these input files please refer to the *guidelines* file of the *example_input_files* folder. Remember to also set the paths in the *trainHD5_32_cov.txt* and *trainHD5_32_shuffle.txt* files.
+
+After creating all the required input files, to train a caffe model using the proposed *FV_MTL with CCE_LC* architecture you can simply run the  *finetune_caffe_VOC2007.sh* batch file (be sure to set all the required paths in this file). For more details on caffe model training you can refer to the [official caffe website](http://caffe.berkeleyvision.org/) that contains many examples.

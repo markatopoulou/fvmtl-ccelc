@@ -1,0 +1,14 @@
+net: "ResNet-50-fvmtl_ccelc_ext1_2048.prototxt"
+display: 40
+average_loss: 40
+base_lr: 0.0001
+lr_policy: "poly"
+power: 0.5
+max_iter: 4697
+momentum: 0.9
+weight_decay: 0.0005
+#clip_gradients: 25
+snapshot: 4500 
+random_seed: 10
+snapshot_prefix: "snap_"
+solver_mode: GPU
